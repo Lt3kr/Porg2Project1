@@ -2,17 +2,20 @@ using System;
 
 namespace Casino
 {
-    class Employee{
+    class Employees
+    {
         public int Id { get; set;}
-        public int AmountOfEmployees { get; set; }
+        private int AmountOfEmployees { get; set; }
         public string Name { get; set; }
 
-        public CheckIn(int Id){
+        public CheckIn(int Id)
+        {
             return true;
         }
 
-        public RemoveEmployee(int Id){
-
+        public RemoveEmployee(int Id)
+        {
+            Id = null;
         }
     }
 }
