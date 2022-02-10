@@ -13,5 +13,10 @@ namespace Casino
         {
             Employees.RemoveEmployee(ProgrammersID);
         }
+        
+        public new Programmers(int id, string Name)
+        {
+
+        }
     }
 }

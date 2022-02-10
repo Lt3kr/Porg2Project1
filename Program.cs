@@ -9,15 +9,9 @@ namespace Casino
         {
             Casino Casino = new Casino();
 
-            Managers Mana = new Managers();
+            Managers Mana = new Managers(1, "Mana");
 
-            Programmers Harry = new Programmers();
-
-            Harry.Name = Harry;
-            Harry.Id = 2;
-
-            Mana.Id = 1;
-            Mana.Name = Mana;
+            Programmers Harry = new Programmers(1, "Harry");
         }
     }
 }

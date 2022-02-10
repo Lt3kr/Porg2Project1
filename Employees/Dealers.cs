@@ -8,5 +8,9 @@ namespace Casino
         {
             return;
         }
+        public new Dealers(int id, string Name)
+        {
+            
+        }
     }
 }
