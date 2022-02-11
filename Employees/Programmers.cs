@@ -4,19 +4,21 @@ namespace Casino
 {
     class Programmers : Employees
     {
-        int ProgrammersID = this.Id;
+        
         public ProgramCasino()
         {
             
         }
+
         public LeaveCasino()
         {
-            Employees.RemoveEmployee(ProgrammersID);
+            Employees.RemoveEmployee(this.id);
         }
         
-        public new Programmers(int id, string Name)
+        public Programmers(int id, string Name)
         {
-
+            this.id = id;
+            this.Name = Name;
         }
     }
 }

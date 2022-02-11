@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Casino
 {
@@ -23,11 +24,17 @@ namespace Casino
         }
         private CheckEmployee(int id)
         { 
-            
+           int id = int.Parse(Console.Read());
         }
-        public new Managers(int id, string Name)
-        {
 
+        public Managers(int id, string Name)
+        {
+            this.id = id;
+            this.Name = Name;
         }
+
+        public list<Programmers> AllProgrammers { get; set; } = new list<Programmers>();
+
+        public List<Dealers> AllDealers { get; set; } = new list<Dealers>();
     }
 }

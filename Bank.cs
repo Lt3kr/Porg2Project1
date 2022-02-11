@@ -13,6 +13,7 @@ namespace Casino
     public Deposit(float Balance, string PaymentMethod, bool Verified){
 
         return balance;
+
     }
 
     }
